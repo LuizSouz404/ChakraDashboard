@@ -26,7 +26,7 @@ const options = {
   tooltip: {
     enabled: false
   },
-  xaxis: {
+  axis: {
     type: "datetime",
     axisBorder: {
       color: theme.colors.gray[600]
@@ -67,7 +67,7 @@ export default function Dashboard() {
     <Flex direction="column" h="100vh">
       <Header />
 
-      <Flex w="100%" my="6" maxWidth={1480} px="6">
+      <Flex w="100%" my="6" mx="auto" maxWidth={1480} px="6">
         <Sidebar />
 
         <SimpleGrid flex="1" gap="4" minChildWidth="320px" align="flex-start">
